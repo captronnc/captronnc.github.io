@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  		<meta charset="utf-8">
-  		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  		<meta name="viewport" content="width=device-width, initial-scale=1">
- 		 <title>Portfolio | Ronald Schaeffer</title>
- 		 <link rel="stylesheet" href="css/bootstrap.min.css">
- 		 <link rel="stylesheet" href="css/style.css">
- 		 <link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css'>
- 		 <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
-
+  	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 		<title>Portfolio | Ronald Schaeffer</title>
+ 		<link rel="stylesheet" href="css/bootstrap.min.css">
+ 		<link rel="stylesheet" href="css/style.css">
+ 		<link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css'>
+ 		<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
+    <script src="js/jquery-1.12.2.js"></script>
+    <script src="js/bootstrap.min.js"></script>
  </head>
 
 <body>
@@ -53,11 +54,30 @@
             <p><a href="https://github.com/captronnc">Link to project</a></p>
           </div>
           <div class="col-md-4 col-sm-4">
-            <img class="frame" src="images/portfolio_screenshot_800px.jpg" alt="image of portfolio screenshot">
+            <img class="frame" src="images/portfolio_screenshot_800px.jpg" alt="image of portfolio screenshot" data-toggle="modal" data-target="#project1">
             <h3>Portfolio Project</h3>
             <p><a href="https://github.com/captronnc">Link to project</a></p>
           </div>
       </div>
   </div>
+
+<!-- Modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Portfolio Project</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/portfolio_screenshot_800px.jpg">
+          <p>This is my first project in the Front-end Nanodegree program. <em>Bootstrap</em> is utilized to layout the grid, <em>srcset</em> is used to change an image based on viewport size, <em>Git</em> is used to provide version control and testing, and <em>GitHub</em> is used to host the site. Overall, this project was exciting to plan and develop. It will continually be updated with new projects, skills and techniques.  --RS, 2016.</p>
+        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
