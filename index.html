@@ -1,82 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  	<meta charset="utf-8">
-  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
- 		<title>Portfolio | Ronald Schaeffer</title>
- 		<link rel="stylesheet" href="css/bootstrap.min.css">
- 		<link rel="stylesheet" href="css/style.css">
- 		<link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css'>
- 		<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
-    <script src="js/jquery-1.12.2.js"></script>
-    <script src="js/bootstrap.min.js"></script>
- </head>
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio | Ronald Schaeffer</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
+</head>
 <body>
-	<div class="container">
-    	<div class="row">
-     		 <div class="title-logo col-md-6 col-sm-6">
-       		 	<img src="images/logo-rs.svg" alt="Branding Logo">
-      		</div>
-      		<div class="col-md-6 col-sm-6 text-right text-uppercase">
-        		<h1 class="title-supe- text-thin">Ronald Schaeffer</h1>
-        		<h3>Front-end Engineer</h3>
-      		</div>
-      	</div>
-      <div class="row">
-         <div class="col-md-12 col-sm-12">
-      		  <hr>
-          </div>
+  <div class="container">
+    <div class="row">
+      <div class="title-logo col-md-6 col-sm-6">
+        <img src="images/logo-rs.svg" alt="Branding Logo">
       </div>
-      <div class="row">
-      		<div class="col-md-12 col-sm-12">
-      			<picture>
-				<source media="(max-width: 600px)" srcset="images/sunset_crop_1140px.jpg">
-				<img src="images/sunset_2280px.jpg" alt="image of sunset">
-				</picture>
-      		</div>
+      <div class="col-md-6 col-sm-6 text-right text-uppercase">
+        <h1 class="title-super- text-thin">Ronald Schaeffer</h1>
+        <h3>Front-end Developer</h3>
       </div>
-      <div class="row">
-        	<div class="col-md-12">
-          		<h2 class="text-muted">Featured Work</h2>
-        	</div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <hr>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <picture>
+          <source media="(max-width: 600px)" srcset="images/sunset_crop_1140px.jpg">
+          <img src="images/sunset_2280px.jpg" alt="image of sunset">
+        </picture>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="text-muted">Featured Work</h2>
+        <p>Click on images for a brief description.<p>
+      </div>
+    </div>
+    <div class="row .l;text-center">
+      <div class="col-md-4 col-sm-4">
+        <img class="frame" src="images/portfolio_screenshot_800px.jpg" alt="image of portfolio screenshot" data-toggle="modal" data-target="#project1">
+        <h3>Portfolio Project</h3>
+        <p><a href="http://captronnc.github.io/">Link to project</a></p>
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <img src="images/resume_800px.jpg" alt="image of resume screenshot" data-toggle="modal" data-target="#project2">
+        <h3>Schaeffer Resume</h3>
+        <p><a href="https://github.com/captronnc/resume-polymer.git">Link to project</a></p>
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <img src="images/wellsurgent_800px.jpg" alt="image of wellsurgent screenshot" data-toggle="modal" data-target="#project3">
+        <h3>WellSurgent</h3>
+        <p><a href="http://wellsurgent.com/">Link to project</a></p>
+      </div>
       </div>
       <div class="row text-center">
-          <div class="col-md-4 col-sm-4">
-            <img class="frame" src="images/portfolio_screenshot_800px.jpg" alt="image of portfolio screenshot" data-toggle="modal" data-target="#project1">
-            <h3>Portfolio Project</h3>
-            <p><a href="https://github.com/captronnc/captronnc.github.io.git">Link to project</a></p>
-          </div>
-      		<div class="col-md-4 col-sm-4">
-      			<img src="images/bluebird_800px.jpg" alt="image of blue bird">
-      			<h3>Blue bird</h3>
-        		<p><a href="https://github.com/captronnc">Link to project</a></p>
-      		</div>
-          <div class="col-md-4 col-sm-4">
-            <img src="images/exotic_flower_800px.jpg" alt="image of exotic flower">
-            <h3>Exotic Flower</h3>
-            <p><a href="https://github.com/captronnc">Link to project</a></p>
-          </div>
+      <div class="col-md-4 col-sm-4">
+        <img src="images/wpi_800px.jpg" alt="image of western piedmontintergroup screenshot" data-toggle="modal" data-target="#project4">
+        <h3>WPI Intergroup</h3>
+        <p><a href="http://wpintergroup.org/index.html">Link to project</a></p>
       </div>
-  </div>
-
-<!-- Modal -->
-<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h4 class="modal-title" id="myModalLabel">Portfolio Project</h4>
+      <div class="col-md-4 col-sm-4">
+        <img src="images/ostca_800px.jpg" alt="image of occupational safety training screenshot" data-toggle="modal" data-target="#project5">
+        <h3>Occupational Safety Training</h3>
+        <p><a href="https://web.archive.org/web/20110727154457/http://www.ostca.org/">Link to project</a></p>
       </div>
-      <div class="modal-body">
-        <img class="img-responsive" src="images/portfolio_screenshot_800px.jpg" alt="image of project screenshot">
-          <p class="modal-description">This is my first project in the Front-end Nanodegree program. <em>Bootstrap</em> is utilized to layout the grid, <em>srcset</em> is used to change an image based on viewport size, <em>Git</em> is used to provide version control and testing, and <em>GitHub</em> is used to host the site. Overall, this project was exciting to plan and develop. It will continually be updated with new projects, skills and techniques.  --RS, 2016.</p>
-        </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      <div class="col-md-4 col-sm-4">
+        <img class="frame" src="images/tp_800px.jpg" alt="image of teaching portfolio screenshot" data-toggle="modal" data-target="#project6">
+        <h3>Teaching Portfolio</h3>
+        <p><a href="http://ronaldschaeffer.com/final-project-web/tp-index.html">Link to project</a></p>
       </div>
     </div>
   </div>
-</div>
+
+<!-- Modal 1-->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Portfolio Project</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/portfolio_screenshot_800px.jpg" alt="image of project screenshot">
+          <p class="modal-description">This is my first project in the Front-end Nanodegree program. <em>Bootstrap</em> is utilized to layout the grid, <em>srcset</em> is used to change an image based on viewport size, <em>Git</em> is used to provide version control and testing, and <em>GitHub</em> is used to host the site. Overall, this project was exciting to plan and develop. It will continually be updated with new projects, skills and techniques.  --RS, 2016.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-- Modal 2-->
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Schaeffer Resume</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/resume_800px.jpg" alt="image of project screenshot">
+          <p class="modal-description">This a current project I am working on. <em>JavaScript</em> is utilized to dynamically load content from <em>JSON</em> file, <em>Polymer Paper Elements</em> are used to create scrolling top NavBar, <em>Git</em> is used to provide version control and testing, and <em>GitHub</em> is used as a repository to store revisions. Overall, this project was very challenging. It will continually be updated with new projects, skills and techniques.  --RS, 2016.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Modal 3-->
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">WellSurgent</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/wellsurgent_800px.jpg" alt="image of project screenshot">
+          <p class="modal-description">This a current project I am working on. <em>Polymer</em> is utilized entirely for structure and it is based on Google's Material Design Guidelines. <em>Polymer Paper Elements</em> are used for scrolling header and NavBar, <em>Polymer Iron Elements</em> are used to display icons and route content. <em>Git</em> is used to provide version control and testing, and <em>GitHub</em> is used as a repository to store revisions. Overall, this project is an exciting adventure into <em>Web Components and Elements</em>. It will continually be updated as the newly founded organization grows.  --RS, 2016.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Modal 3-->
+  <div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Western Piedmont Intergroup</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/wpi_800px.jpg" alt="image of project screenshot">
+          <p class="modal-description">This a project I took on a couple of years ago. Originally, this site was built with Yahoo Sitebulder. I restructured the site with basic HTML and CSS. It is currently being revised to be responsive across all media devices. This project is voluntary for a local community based service.  --RS, 2012-16.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Modal 5-->
+  <div class="modal fade" id="project5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Occupational Safety Training</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/ostca_800px.jpg" alt="image of project screenshot">
+          <p class="modal-description">This was my first endeavor into front-end development and design. <em>PHP</em> was used to build this site which is no longer live. <em>Wayback Machine</em> is utilized to display archived screenshots. --RS, 2009-10.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+    </div>
+<!-- Modal 1-->
+  <div class="modal fade" id="project6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Teaching Portfolio</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="images/tp_800px.jpg" alt="image of project screenshot">
+          <p class="modal-description">This is a project from a Web Design Class I took in college. It is built with basic HTML and CSS. The project also includes a general Curriculum Vitae and my teaching philosophy developed during my course of study. --RS, 2014.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </div>
+  <script src="js/jquery-1.12.2.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
